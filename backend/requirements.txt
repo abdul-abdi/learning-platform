@@ -1,0 +1,61 @@
+# Web Framework
+Flask==2.3.2
+Flask-RESTful==0.3.10
+Flask-Cors==4.0.0
+
+# Database
+Flask-SQLAlchemy==3.0.5
+psycopg2-binary==2.9.6
+alembic==1.11.1
+Flask-Migrate==4.0.4  # Add this line
+
+# Authentication
+Flask-JWT-Extended==4.5.2
+passlib==1.7.4
+Flask-Bcrypt==1.0.1  # Add this line
+
+# Task Queue
+celery==5.3.1
+redis==4.6.0
+
+# Testing
+pytest==7.4.0
+pytest-flask==1.2.0
+
+# Load Testing
+locust==2.15.1
+
+# API Documentation
+flask-swagger-ui==4.11.1
+
+# Security
+Flask-Talisman==1.0.0
+Flask-SeaSurf==1.1.1
+Flask-Limiter==3.3.1  # Add this line
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Machine Learning (for recommendation system)
+scikit-learn==1.3.0
+pandas==2.0.3
+
+# Monitoring and Logging
+sentry-sdk[flask]==1.28.1
+prometheus-flask-exporter==0.22.4
+
+# Performance
+Flask-Caching==2.0.2
+
+# Async support (if needed)
+gunicorn==20.1.0
+gevent==22.10.2
+
+# Development tools
+black==23.7.0
+flake8==6.0.0
+isort==5.12.0
+
+# Add Flask-Script for manage.py
+Flask-Script==2.0.6
